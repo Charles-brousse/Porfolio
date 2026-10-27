@@ -1,0 +1,35 @@
+{
+  "title": "Mon mur photographique",
+  "photos": [
+    {
+      "name": "Exemple 1",
+      "title": "Une première image",
+      "thumb": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=700&q=78",
+      "original": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=max&q=95",
+      "x": -140,
+      "y": -100,
+      "w": 260,
+      "h": 190
+    },
+    {
+      "name": "Exemple 2",
+      "title": "Une image verticale",
+      "thumb": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700&q=78",
+      "original": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=max&q=95",
+      "x": 165,
+      "y": -30,
+      "w": 220,
+      "h": 290
+    },
+    {
+      "name": "Exemple 3",
+      "title": "Une troisième image",
+      "thumb": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=700&q=78",
+      "original": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=max&q=95",
+      "x": 80,
+      "y": 290,
+      "w": 300,
+      "h": 210
+    }
+  ]
+}

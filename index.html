@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f5f0">
+<title>Mon mur photographique</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div><div class="kicker">CARNET VISUEL</div><h1 id="heading">Mon mur photographique</h1></div>
+  <nav class="controls" aria-label="Contrôles du tableau">
+    <button id="minus" aria-label="Dézoomer">−</button><span id="zoom">100 %</span><button id="plus" aria-label="Zoomer">+</button>
+    <button id="center" class="optional">Recentrer</button>
+  </nav>
+</header>
+<main id="stage">
+  <div id="board"></div>
+  <div id="status">Chargement du tableau…</div>
+  <div id="hint">Faites glisser le fond pour explorer · molette pour zoomer</div>
+  <aside id="editor" class="hidden">
+    <div class="panel-title">Mode organisation</div>
+    <p>Déplacez les images par glisser-déposer. Redimensionnez-les avec la poignée ronde en bas à droite.</p>
+    <label for="title">Titre du tableau</label><input id="title" maxlength="100" value="Mon mur photographique">
+    <button id="save" class="primary">Exporter la mise en page</button>
+    <p class="fine">Le fichier téléchargé contient les positions et tailles. Il faudra ensuite le remettre dans le dépôt du site pour publier la nouvelle composition.</p>
+    <button id="exit">Quitter le mode organisation</button>
+  </aside>
+</main>
+<dialog id="viewer">
+  <button id="close" aria-label="Fermer">×</button>
+  <img id="large" alt="">
+  <footer><span id="caption"></span><a id="original" target="_blank" rel="noopener">Ouvrir l’original ↗</a></footer>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>
